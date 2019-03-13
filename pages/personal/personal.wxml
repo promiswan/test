@@ -1,0 +1,45 @@
+<view class="page-body">
+<view class="photopart"  bindtap="f2">
+<image src="/pages/image/personal.png" class="head"  ></image>
+    <view class="photttest">
+    
+    <text class="text1">用户名XXX</text>
+    <text class="text1"> 133xxxxxxxxx</text>
+    
+    </view>
+    </view>
+<view class="longlinecontainer">
+<view class="photopart" >
+<image src="/pages/image/ticket.png "  class="smallicon"></image>
+<text class="text2">优惠券</text>
+</view>
+<view class="smallphotopart">
+<image src="/pages/image/star.png "  class="smallicon"></image>
+<text class="text2">我的收藏</text>
+</view>
+<view class="smallphotopart">
+<image src="/pages/image/order.png "  class="smallicon"></image>
+<text class="text2">我的订单</text>
+</view><view class="smallphotopart">
+<image src="/pages/image/map.png "  class="smallicon"></image>
+<text class="text2"  bindtap="f1">我的地址</text>
+</view><view class="smallphotopart">
+<image src="/pages/image/gift.png "  class="smallicon"></image>
+<text class="text2">邀请好友</text>
+</view><view class="smallphotopart">
+<image src="/pages/image/earphone.png "  class="smallicon"></image>
+<text class="text2">客服中心</text>
+</view><view class="smallphotopart">
+<image src="/pages/image/help.png "  class="smallicon"></image>
+<text class="text2">帮助与反馈</text>
+</view>
+
+<view class="lastphotopart" >
+<text class="lasttext"  >退出账号</text>
+</view>
+
+</view>
+
+
+
+</view>

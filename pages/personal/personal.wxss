@@ -1,0 +1,97 @@
+@import "../ui/weui.wxss";
+.backgroundcontainer{
+  display: flex;
+  height:100vh;
+  flex-direction: column;
+  justify-content: center;
+  border-color: #C8C8CD;
+  border-style: solid;
+
+}
+
+.shortlinecontainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#fff;
+  text-align:center;
+}
+
+
+.head{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
+
+.photopart{
+  width:680rpx;
+  display:flex;
+  margin-left:35rpx;
+  margin-top:50rpx;
+  border:1rpx solid black;
+  
+}
+
+.phototext{
+  display:flex;
+   flex-direction: column;}
+  
+
+
+.text1{
+  display:block;
+  text-align:center;
+  margin-left:100rpx
+}
+
+
+.longlinecontainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#fff;
+  text-align:center;
+  margin-top:20rpx
+
+}
+
+.smallicon{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+}
+
+.text2{
+   display:block;
+  text-align:center;
+  margin-left:190rpx
+}
+
+.smallphotopart{
+  width:680rpx;
+  display:flex;
+  margin-left:35rpx;
+  border:1rpx solid black;
+  
+}
+
+.lastphotopart{
+  width:680rpx;
+  display:flex;
+  margin-left:35rpx;
+  border:1rpx solid black;
+  margin-top:50rpx;
+  height:100rpx;
+  
+}
+
+.lasttext{
+   display:block;
+   margin-top:20rpx;
+  text-align:center;
+  margin-left:250rpx;
+
+}

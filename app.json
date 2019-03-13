@@ -1,0 +1,64 @@
+{
+  "pages":[
+    "pages/personal/personal",
+    "pages/map/map",
+   "pages/personal/myposition/myposition",
+   "pages/personal/accont/accont",
+     "pages/pay/pay",
+   
+    "pages/index/index",
+    "pages/testmap/testmap",
+     
+ 
+    "pages/trolly/trolly",
+    
+ 
+    "pages/logs/logs"
+    
+  ],
+
+
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+  
+
+
+      },
+        "tabBar": {
+          "list": [
+            {
+              "text": "地图",
+              "pagePath": "pages/map/map",
+              "iconPath": "pages/image/map.png",
+              "selectedIconPath": "pages/image/map.png"
+            },
+            {
+              "text": "购物车",
+              "pagePath": "pages/trolly/trolly",
+              "iconPath": "pages/image/trolly.png",
+              "selectedIconPath": "pages/image/trolly.png"},
+              {
+                "text": "我的",
+                "pagePath": "pages/personal/personal",
+                "iconPath": "pages/image/personal.png",
+                "selectedIconPath": "pages/image/personal.png"
+              }
+    ]
+  }
+
+
+    }
+
+
+
+

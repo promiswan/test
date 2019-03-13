@@ -1,0 +1,15 @@
+
+    <view class="weui-cells__title">新的用户名</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="账号"/>
+      </view>
+    </view>
+     <view class="page-section">
+    <view class="weui-cells__title">请输入密码</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" password type="text" placeholder="密码" />
+      </view>
+    </view>
+  </view>

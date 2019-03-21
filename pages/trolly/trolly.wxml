@@ -1,1 +1,24 @@
-<text>gou wu che</text>
+<view class="titlepart">
+<image src="/pages/image/point.png "  class="smallicon"></image>
+<text class="firsttext">共有{{}}件商品</text>
+</view>
+
+<view class="mainborder">
+<view class="title">
+<radio  class="radiotype"></radio>
+<text>人民食堂</text>
+</view>
+<view class="item">
+<radio   class="radiotype2"></radio>
+
+<view class="heng">
+<image src="/pages/image/food.png "  class="food"></image>
+<view class="text1">
+<text >小炒肉 </text>
+<text >辣</text>
+<text >X1（25元）</text>
+</view>
+
+</view>
+</view>
+</view>

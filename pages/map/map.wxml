@@ -1,21 +1,30 @@
-<view class="page-body" bindtap='f1'>
-  <view class="page-section page-section-gap">
-    <map
-      id="myMap"
-      style="width: 100%; height: 300px;"
-      latitude="{{latitude}}"
-      longitude="{{longitude}}"
-      markers="{{markers}}"
-      covers="{{covers}}"
-      show-location
-    ></map>
-  </view>
+
 <view class="page-section">
-    
-    <view class="weui-cells weui-cells_after-title">
+<view class="weui-cells weui-cells_after-title">
       <view class="weui-cell weui-cell_input">
-        <input focus='true' class="weui-input" placeholder="输入美食" type='text' confirm-type='serch'/>
+        <input focus='true' class="weui-input" placeholder="搜索"  type='text' confirm-type='serch'/>
       </view>
     </view>
   </view>
-</view>
+
+<swiper class='movie-swiper' indicator-dots='ture'>
+<swiper-item  wx:for="{{recordlist}}">
+<image class="movie-image" src='{{item.photo}}'></image>
+</swiper-item>
+</swiper>
+
+
+<view class="page-body" >
+  <view >
+    <map
+      id="myMap"
+      style="width: 100%; height: 340px;"
+      latitude="30.6757490000"
+      longitude="104.1005480000"
+      markers="{{markers}}"
+      bindmarkertap="f1"
+
+    ></map>
+  </view>
+  </view>
+

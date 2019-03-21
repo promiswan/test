@@ -2,10 +2,82 @@
 var QQMapWX = require('sdk/qqmap-wx-jssdk.js');
 var qqmapsdk;
 Page({
+data: {
+  markers: [{
+    id: "myMap",
+    zIndex:'10',
+    latitude: 30.659840000000003,
+    longitude: 104.10194000000001,
+    alpha:"0",
+    label: {
+      content: " eat  ",
+      color: "#fff",
+      fontSize: "16",
+      borderRadius: "10",
+      bgColor: "#000",
+      padding: "10",
+      anchorX: '-30',
+      anchorY: '-70',
+     
+      
+      display: "ALWAYS"
+    }
+    
+ 
+  },
+    {
+      id: "myMap",
+      latitude: 30.675749000,
+      longitude: 104.1005480000,
 
+      label: {
+        content: " eat  ",
+        color: "#fff",
+        fontSize: "16",
+        borderRadius: "10",
+        bgColor: "#000",
+        padding: "10",
+        anchorX: '-30',
+        anchorY: '-70',
+      }
+     
+    }, 
+    {
+      id: "myMap",
+        latitude: 30.6857490000,
+        longitude: 104.1005480000,
+      label: {
+        content: " eat  ",
+        color: "#fff",
+        fontSize: "16",
+        borderRadius: "10",
+        bgColor: "#000",
+        padding: "10",
+        anchorX: '-30',
+        anchorY: '-70',}
+    }],
+  
+
+               
+      recordlist: [
+        {
+          photo: "/pages/image/pic1.jpg",
+         
+ },
+        {
+          photo: "/pages/image/pic2.jpg",
+      
+ },
+        {
+          photo: "/pages/image/pic3.jpg",
+
+        
+ }
+      ]
+    },
   f1:function(event) {
    
-    wx.navigateTo({url:'/pages/trolly/trolly'})
+    wx.switchTab({url:'/pages/trolly/trolly'})
   },
 
   bindKeyInput: function (e) {
@@ -46,44 +118,6 @@ Page({
     qqmapsdk = new QQMapWX({
       key: "GB6BZ-3OIHO-4BEWH-SBMZX-XLWSJ-VNBTE"
     })
-  },
+  }
   
-  onShow: function () {
-    // 调用接口
-
-    qqmapsdk.search({
-      keyword: '美食',
-      
-      success: function (res) {
-        
-        var mks = []
-        for (var i = 0; i < res.data.length; i++) {
-          mks.push({ // 获取返回结果，放到mks数组中
-            title: res.data[i].title,
-            id: res.data[i].id,
-            latitude: res.data[i].location.lat,
-            longitude: res.data[i].location.lng,
-            iconPath: '/pages/image/pin.png', //图标路径
-            width: 50,
-            height: 50
-          })
-        }
-        this.setData({ //设置markers属性，将搜索结果显示在地图中
-          markers: res.data
-        })
-        
-      },
-      fail: function (res) {
-        console.log(res);
-      },
-      complete: function (res) {
-        console.log(res);
-      },
-      success: function (res) {
-        console.log(res);
-       },
-
-
-    
-    }
-    )}})
+  })

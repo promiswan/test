@@ -1,4 +1,9 @@
 Page({
+  trolly: function (event) {
+
+    wx.navigateTo({ url: '/pages/trolly/trolly' })
+  },
+
   data: {
     latitude: 23.099994,
     longitude: 113.324520,
@@ -11,11 +16,11 @@ Page({
     covers: [{
       latitude: 23.099994,
       longitude: 113.344520,
-      iconPath: '/image/location.png'
+      iconPath: '/pages/image/location.png'
     }, {
       latitude: 23.099994,
       longitude: 113.304520,
-      iconPath: '/image/location.png'
+        iconPath: '/pages/image/location.png'
     }]
   },
   onReady: function (e) {

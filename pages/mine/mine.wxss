@@ -1,0 +1,78 @@
+/* pages/mine/mine.wxss */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0px;
+  top: 65px;
+  width: 375px;
+  height: 215px;
+  color: rgba(16, 16, 16, 1);
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.information{
+  width: 375px;
+  height: 44px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top:35px;
+}
+
+.portrait{
+  width: 63px;
+  height: 63px;
+  background-color: rgba(16, 16, 16, 1);
+}
+
+.ID{
+  color: rgba(0, 120, 215, 1);
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1px;
+}
+
+.ID-v{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.userName{
+  color: rgba(0, 120, 215, 1);
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1px;
+}
+
+.orders{
+  left: 0px;
+  top: 305px;
+  width: 375px;
+  height: 44px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cart{
+  width: 125px;
+  height: 70px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.help{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.info{
+  margin-bottom: 0px;
+}

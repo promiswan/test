@@ -1,1 +1,22 @@
 @import "../ui/weui.wxss";
+
+.firstline{
+  margin-top:50px;
+}
+
+
+
+.movie-image{
+width:375px;
+height:200px;
+}
+.movie-swiper{
+  height:30vh;
+}
+
+.movie-card{
+height:80%;
+}
+.text{
+  align-items: center;
+}

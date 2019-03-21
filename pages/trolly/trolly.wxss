@@ -1,0 +1,71 @@
+.firsttext{
+  margin-left:10px;
+}
+
+.smallicon{
+  width:40px;
+  height:40px;
+ margin-left:30px; margin-top:px;
+
+
+}
+
+.titlepart{
+  display:flex;
+
+  height:40px;
+border-bottom:1px black solid;
+}
+.contianer{
+  display:flex;
+  height:600px;
+}
+.mainborder{
+  margin-top:30px;
+  margin-left:13px;
+  height:250px;
+  width:350px;
+  border:1px black solid;
+  border-radius:15px;
+}
+.radiotype{
+  margin-left:13px;}
+
+.radiotype2{
+  margin-left:13px;
+  margin-top:30px;
+  
+  }
+
+.title{
+  border-bottom:black 1px solid;
+  height:30px;
+  margin-left:13px;
+  
+}
+
+
+.item{
+  height:100px;
+  border-bottom:black 1px solid;
+  display:flex;
+    flex-direction:row;
+}
+
+.food{
+  margin-top:10px;
+  margin-left:40px;
+ height:80px;
+ width:80px;
+
+}
+.heng{
+  display:flex;
+  width:680rpx;
+}
+.text1{
+  display:flex;
+  margin-top:10px;
+  margin-left:40px;
+  flex-direction: column;
+}

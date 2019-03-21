@@ -1,7 +1,10 @@
 {
   "pages":[
-    "pages/personal/personal",
+    "pages/mine/mine",
     "pages/map/map",
+      "pages/trolly/trolly",
+    "pages/personal/personal",
+    
    "pages/personal/myposition/myposition",
    "pages/personal/accont/accont",
      "pages/pay/pay",
@@ -10,7 +13,7 @@
     "pages/testmap/testmap",
      
  
-    "pages/trolly/trolly",
+  
     
  
     "pages/logs/logs"
@@ -37,7 +40,7 @@
         "tabBar": {
           "list": [
             {
-              "text": "地图",
+              "text": "校园服务",
               "pagePath": "pages/map/map",
               "iconPath": "pages/image/map.png",
               "selectedIconPath": "pages/image/map.png"
@@ -48,10 +51,16 @@
               "iconPath": "pages/image/trolly.png",
               "selectedIconPath": "pages/image/trolly.png"},
               {
-                "text": "我的",
+                "text": "活动",
                 "pagePath": "pages/personal/personal",
                 "iconPath": "pages/image/personal.png",
                 "selectedIconPath": "pages/image/personal.png"
+              },
+              {
+                "text": "我的",
+                "pagePath": "pages/mine/mine",
+                "iconPath": "pages/image/mine.png",
+                "selectedIconPath": "pages/image/mine.png"
               }
     ]
   }
